@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme CSS Variables - Brand A (default) */
+:root,
+[data-theme="brandA"] {
+  /* Primary Colors */
+  --color-primary: #fc4c02;
+  --color-primary-dark: #dd3300;
+  --color-primary-light: #ffd0c2;
+  --color-primary-lighter: #ffe6df;
+  --color-primary-lightest: #fff0eb;
+
+  /* Secondary Colors */
+  --color-secondary: #faf9f5;
+  --color-secondary-dark: #f5f4f0;
+  --color-secondary-darker: #ebeae6;
+  --color-secondary-darkest: #1f1e19;
+
+  /* Tertiary Colors */
+  --color-tertiary: #1fceb5;
+  --color-tertiary-dark: #1aad98;
+  --color-tertiary-light: #bdf5ed;
+
+  /* Semantic Colors */
+  --color-error: #dc3545;
+  --color-error-dark: #9e1f28;
+  --color-error-light: #fce8e8;
+  --color-success: #28a745;
+  --color-success-dark: #218838;
+  --color-success-light: #e6f9e6;
+  --color-warning: #ff9500;
+  --color-warning-dark: #db7c00;
+  --color-warning-light: #fff4e5;
+
+  /* Neutral Colors */
+  --color-neutral-black: #000000;
+  --color-neutral-white: #ffffff;
+  --color-neutral-default: #949494;
+  --color-neutral-dark: #767676;
+  --color-neutral-light: #cdcdcd;
+  --color-neutral-black-10: #0000001a;
+  --color-neutral-black-30: #00000033;
+  --color-neutral-black-40: #00000066;
+  --color-neutral-white-30: #ffffff33;
+
+  /* Surface Colors */
+  --color-surface-page: #faf9f5;
+  --color-surface-hover: #0000001a;
+  --color-surface-action-primary: #1fceb5;
+  --color-surface-action-secondary: #000000;
+  --color-surface-action-hover-primary: #000000;
+  --color-surface-action-hover-secondary: #1fceb5;
+  --color-surface-disabled-light: #ffffff33;
+  --color-surface-disabled-dark: #d1cfc7;
+  --color-surface-secondary: #ffffff;
+  --color-surface-brand-primary: #fc4c02;
+  --color-surface-brand-secondary: #fc4c02;
+
+  /* Text Colors */
+  --color-text-headings: #000000;
+  --color-text-body: #000000;
+  --color-text-disabled: #949494;
+  --color-text-error: #9e1f28;
+  --color-text-action-active: #000000;
+  --color-text-action-on-primary: #000000;
+  --color-text-action-on-secondary: #ffffff;
+  --color-text-brand: #fc4c02;
+  --color-text-passive: #767676;
+  --color-text-action-on-tertiary: #000000;
+  --color-text-action-inverse: #ffffff;
+  --color-text-action-disabled: #949494;
+  --color-text-warning: #ff9500;
+
+  /* Border Colors */
+  --color-border-primary: #000000;
+  --color-border-disabled: #00000033;
+  --color-border-error: #9e1f28;
+  --color-border-action-active: #fc4c02;
+  --color-border-passive: #d1cfc7;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 20px;
+  --radius-round: 120px;
+  
+  /* Icon Colors */
+  --color-icon-action-active: #000000;
+  --color-icon-action-on-primary: #000000;
+  --color-icon-error: #dc3545;
+  --color-icon-positive: #28a745;
+  --color-icon-action-on-secondary: #ffffff;
+  --color-icon-action-inverse: #ffffff;
+  --color-icon-action-disabled: #949494;
+
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+}
+
+/* Theme CSS Variables - Brand B */
+[data-theme="brandB"] {
+  /* Primary Colors */
+  --color-primary: #901438;
+  --color-primary-dark: #73102d;
+  --color-primary-light: #d3a1af;
+  --color-primary-lighter: #e9d0d7;
+  --color-primary-lightest: #f9f3f5;
+
+  /* Secondary Colors */
+  --color-secondary: #f7f6f4;
+  --color-secondary-dark: #ebeae8;
+  --color-secondary-darker: #dedddc;
+  --color-secondary-darkest: #313131;
+
+  /* Tertiary Colors */
+  --color-tertiary: #f89eff;
+  --color-tertiary-dark: #ae6fb2;
+  --color-tertiary-light: #fbcfff;
+
+  /* Semantic Colors (same as Brand A) */
+  --color-error: #dc3545;
+  --color-error-dark: #c32733;
+  --color-error-light: #fce8e8;
+  --color-success: #5fda5f;
+  --color-success-dark: #218838;
+  --color-success-light: #e6f9e6;
+  --color-warning: #dc3545;
+  --color-warning-dark: #c32733;
+  --color-warning-light: #f29393;
+
+  /* Neutral Colors (same as Brand A) */
+  --color-neutral-black: #000000;
+  --color-neutral-white: #ffffff;
+  --color-neutral-default: #949494;
+  --color-neutral-dark: #767676;
+  --color-neutral-light: #cdcdcd;
+  --color-neutral-black-10: #0000001a;
+  --color-neutral-black-30: #00000033;
+  --color-neutral-black-40: #00000066;
+  --color-neutral-white-30: #ffffff33;
+
+  /* Surface Colors */
+  --color-surface-page: #f5f5f5;
+  --color-surface-hover: #0000001a;
+  --color-surface-action-primary: #901438;
+  --color-surface-action-secondary: #570d1c;
+  --color-surface-action-hover-primary: #000000;
+  --color-surface-action-hover-secondary: #901438;
+  --color-surface-disabled-light: #ffffff33;
+  --color-surface-disabled-dark: #c6c5c3;
+
+  /* Text Colors */
+  --color-text-headings: #000000;
+  --color-text-body: #000000;
+  --color-text-disabled: #949494;
+  --color-text-error: #c32733;
+  --color-text-action-active: #000000;
+  --color-text-action-on-primary: #ffffff;
+  --color-text-action-on-secondary: #ffffff;
+  --color-text-brand: #901438;
+  --color-text-passive: #767676;
+  --color-text-action-on-tertiary: #000000;
+  --color-text-action-inverse: #ffffff;
+
+  /* Border Colors */
+  --color-border-primary: #000000;
+  --color-border-disabled: #00000033;
+  --color-border-error: #c32733;
+  --color-border-action-active: #901438;
+  --color-border-passive: #c6c5c3;
+  
+  /* Surface Colors */
+  --color-surface-secondary: #ffffff;
+  --color-surface-brand-primary: #901438;
+  --color-surface-brand-secondary: #901438;
+  
+  /* Icon Colors */
+  --color-icon-action-active: #000000;
+  --color-icon-action-on-primary: #ffffff;
+  --color-icon-action-on-secondary: #ffffff;
+  --color-icon-action-inverse: #ffffff;
+  --color-icon-action-disabled: #949494;
+  --color-icon-error: #dc3545;
+  --color-icon-positive: #28a745;
+  
+  /* Text Colors */
+  --color-text-action-disabled: #949494;
+  --color-text-warning: #ff9500;
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+    background-color: var(--color-surface-page);
+    color: var(--color-text-body);
+  }
+}
